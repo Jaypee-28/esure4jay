@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 160" fill="none" class="w-auto h-full">
+  <defs>
+    <linearGradient id="stackedLogoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563EB" />
+      <stop offset="50%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#06B6D4" />
+    </linearGradient>
+    <linearGradient id="stackedTextGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#2563EB" />
+    </linearGradient>
+  </defs>
+
+  <!-- Centered Icon Mark -->
+  <g transform="translate(60, 10) scale(0.8)">
+    <rect width="100" height="100" rx="24" fill="#0F172A" stroke="rgba(255,255,255,0.1)" stroke-width="2" />
+    <path d="M 28 28 H 72 C 75.3137 28 78 30.6863 78 34 C 78 37.3137 75.3137 40 72 40 H 42 L 28 28 Z" fill="url(#stackedLogoGrad)" />
+    <path d="M 28 28 L 62 62 H 72 C 75.3137 62 78 64.6863 78 68 C 78 71.3137 75.3137 74 72 74 H 48 L 28 54 V 28 Z" fill="url(#stackedLogoGrad)" opacity="0.8" />
+    <path d="M 38 46 L 68 76 C 64 80 56 80 50 80 C 38 80 30 72 30 60 V 54 L 38 46 Z" fill="url(#stackedLogoGrad)" />
+    <circle cx="72" cy="28" r="4" fill="#06B6D4" />
+  </g>
+
+  <!-- Centered Wordmark Text -->
+  <text x="100" y="124" text-anchor="middle" font-family="'Space Grotesk', 'Inter', sans-serif" font-weight="700" font-size="24" letter-spacing="-0.5" fill="#F8FAFC">
+    Esure<tspan fill="url(#stackedTextGrad)">4Jay</tspan>
+  </text>
+  <text x="100" y="145" text-anchor="middle" font-family="'Inter', sans-serif" font-weight="500" font-size="10" letter-spacing="3" fill="#94A3B8">
+    WEB ENGINEER & ARCHITECT
+  </text>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 100" fill="none">
+    <defs>
+        <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#06B6D4" />
+            <stop offset="100%" stop-color="#2563EB" />
+        </linearGradient>
+        <linearGradient id="g2" x1="100%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#2563EB" />
+            <stop offset="100%" stop-color="#0F172A" />
+        </linearGradient>
+        <linearGradient id="gText" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#FFFFFF" />
+            <stop offset="100%" stop-color="#F1F5F9" />
+        </linearGradient>
+    </defs>
+    <!-- 3D Isometric Ribbon / Futuristic Node -->
+    <path d="M20,65 L20,35 L50,15 L65,25 L35,45 L35,75 Z" fill="url(#g1)" />
+    <path d="M80,35 L80,65 L50,85 L35,75 L65,55 L65,25 Z" fill="url(#g2)" />
+    <!-- Text -->
+    <text x="100" y="65" font-family="'Space Grotesk', 'Inter', sans-serif" font-weight="700" font-size="44" letter-spacing="-1">
+        <tspan fill="#2563EB">Esure4Jay</tspan>
+    </text>
+</svg>
